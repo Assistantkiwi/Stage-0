@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="A profile card"/>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>Profile Card</title>
+    </head>
+    <body>
+        <div class="card">
+            <div class="card-image">
+                <img id="profilePicture" data-testid="profilePicture" src="./assets/CUTIE.jpg" alt="Profile Picture" />
+            </div>
+            <div class="card-content">
+                <h1 data-testid="fullName">Chidinma Judith Chieke</h1>
+                <h3 data-testid="jobTitle">Student</h3>
+                <p data-testid="shortBio">Chidinma Judith Chieke is a student at the University of Lagos, studying Computer Science. She is passionate about technology and is always eager to learn new things. She is an aspiring frontend developer and is also learning about product management. </p>
+            </div>
+                <div class="contact">
+                    <h4>Contact:</h4>
+                    <p data-testid="emailAddress">Email: chiekechidinma7@gmail.com</p>
+            <div class="card-social" data-testid="socialLinks">
+                <a href="https://twitter.com/ChidinmaJudithC" target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/twitter.png"/></a>
+                <a href="https://www.linkedin.com/in/chidinma-judith-chieke-0b0b3b1b1/" target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/linkedin.png"/></a>   
+            </div>        
+            </div>
+            <div class="location">
+                <h4>Location:</h4>
+                <p data-testid="location">Lagos, Nigeria</p>
+            </div>
+            <div class="time">
+                <h4>Current Time:</h4>
+                <p data-testid="currentTimeUTC" id="currentTime"></p>
+            </div>
+        </div>
+    </body>
+</html>
