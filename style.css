@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #C7CED3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,12 +10,12 @@ body {
 }
 
 .card {
-    background-color: #fff;
+    background-color: #DDE6EB;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Highlighted blurriness effect */
     overflow: hidden;
     width: 100%;
-    max-width: 300px; /*  To ensure the card doesn't get too wide on larger screens */
+    max-width: 300px; /* To ensure the card doesn't get too wide on larger screens */
     text-align: center;
     margin: 20px; 
 }
@@ -39,7 +39,6 @@ body {
     border-radius: 50%;
 }
 
-
 .card-content {
     padding: 20px;
 }
@@ -62,7 +61,7 @@ body {
 
 .contact, .location, .time {
     padding: 10px 20px;
-    border-top: 1px solid #eee;
+    border-top: 1px ;
 }
 
 .contact h4, .location h4, .time h4 {
@@ -79,7 +78,7 @@ body {
 
 .card-social {
     padding: 10px 20px;
-    border-top: 1px solid #eee;
+    border-top: 1px ;
 }
 
 .card-social a {
